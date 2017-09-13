@@ -1,0 +1,13 @@
+<div class="navbar navbar-default" *ngIf="showNavigation()">
+  <ul class="nav navbar-nav navigation-list">
+    <li>
+      <a class="navbar-brand" routerLink="/about">About</a>
+    </li>
+    <li>
+      <a class="navbar-brand" routerLink="/innerrouting">Explore</a>
+    </li>
+    <li>
+      <a class="navbar-brand" routerLink="/login" (click)="logout()">Logout</a>
+    </li>
+  </ul>
+</div>
